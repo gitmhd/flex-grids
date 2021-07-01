@@ -14,13 +14,11 @@ A lightweight CSS grid system uses for making responsive websites.
 ## Installation
 
 Clone the repo into your PC.
-Then, copy the **css** folder into your project directory.
+Then, copy the `css` folder into your project directory.
 Then, link the _flex-grid.min.css_ file in your html file.
 
-```
-
-<link rel="stylesheet" href="css/flex-grid.min.css">
-
+```html
+<link rel="stylesheet" href="css/flex-grid.min.css" />
 ```
 
 **Hint:** I assume that your html is in the root directory.
