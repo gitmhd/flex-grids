@@ -1,0 +1,31 @@
+/* Start grid */
+
+@for $i from 12 through 1 {
+   #{".col-" + $i} {
+      flex-basis: #{(100 / 12 * $i) + "%"};
+   }
+}
+@for $i from 12 through 1 {
+   #{".order-" + $i} {
+      order: $i;
+   }
+}
+@each $break, $value in $grid-breakpoints {
+   @media (min-width: $value) {
+      .container {
+         max-width: ($value - 30px);
+      }
+      @for $i from 12 through 1 {
+         #{".col-" + $break + "-" + $i} {
+            flex-basis: #{(100 / 12 * $i) + "%"};
+         }
+      }
+      @for $i from 12 through 1 {
+         #{".order-" + $break + "-" + $i} {
+            order: $i;
+         }
+      }
+   }
+}
+
+/* End grid */

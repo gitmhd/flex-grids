@@ -1,0 +1,22 @@
+/* Start global */
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+.container {
+   padding: 0 15px;
+   margin: auto;
+}
+.row {
+   display: flex;
+   flex-flow: row wrap;
+   margin: 0 -15px;
+}
+[class*="col"] {
+   padding: 0 15px;
+   flex: 1 1 auto;
+}
+
+/* End global */
