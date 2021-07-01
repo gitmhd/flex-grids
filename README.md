@@ -29,9 +29,11 @@ Then, include the `flex-grid.min.css` file in your html file.
 
 Once you include `flex-grid.min.css` in your html file you are all set to use `flex-grid`, now just you need to add some classes.
 
-| class     | description                 |
-| --------- | --------------------------- |
-| .col-\*   | Use it just like bootstrap. |
-| .order-\* | Use it just like bootstrap. |
+| class      | description                                                           |
+| ---------- | --------------------------------------------------------------------- |
+| .container | You can use it like holder for your content.                          |
+| .row       | Container of your grid elements, all grid elements must be inside it. |
+| .col-\*    | Presents a grid element.                                              |
+| .order-\*  | Uses for ordering your grid elements.                                 |
 
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap.
