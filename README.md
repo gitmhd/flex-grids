@@ -8,7 +8,7 @@ A lightweight CSS grid system uses for making responsive websites.
 -  Lightweight Just 8 Kilobytes.
 -  Easy To Install.
 -  Easy To Use.
--  Use Flex Box.
+-  Use Flexbox.
 -  Great For Multilanguage Websites. <!-- NEED -->
 
 ## Installation
@@ -29,6 +29,8 @@ Then, include the `flex-grid.min.css` file in your html file.
 
 Once you include `flex-grid.min.css` in your html file you are all set to use `flex-grid`, now just you need to add some classes.
 
+`flex-grid` is a rows and columns grid-based, each row represents a grid system, and each column represents a grid element, each row divided into 12 grid elements that can be represented by columns.
+
 | class      | description                                                           |
 | ---------- | --------------------------------------------------------------------- |
 | .container | You can use it as a container for your content.                       |
@@ -44,7 +46,7 @@ You can use it as a container for your content, handles the content to be all th
 
 Container of your grid elements, all grid elements must be inside it.
 
-### .col
+### .col-
 
 Represents a grid element,
 
