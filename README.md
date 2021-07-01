@@ -46,8 +46,62 @@ You can use it as a container for your content, handles the content to be all th
 
 Container of your grid elements, all grid elements must be inside it.
 
-### .col-
+### .col-\*
 
-Represents a grid element,
+Represents a grid element.
+
+```html
+<div class="container">
+   <div class="row">
+      <div class="col">1</div>
+      <div class="col">2</div>
+      <div class="col">3</div>
+      <div class="col">4</div>
+   </div>
+</div>
+```
+
+Now all the elements will be the same width and fit the row.
+
+You can add after hyphen number from 1 to 12 represents how many grid will take from the whole grids.
+
+```html
+<div class="container">
+   <div class="row">
+      <div class="col-3">1</div>
+      <div class="col-3">2</div>
+      <div class="col-3">3</div>
+      <div class="col-3">4</div>
+   </div>
+</div>
+```
+
+All items have the same width because I gave each column 3 grids, so the sum is 12.
+
+You can add after hyphen (sm, md, lg, xl) depending on the screen you target.
+
+```html
+<div class="container">
+   <div class="row">
+      <div class="col-1">1</div>
+      <div class="col-sm-2"2</div>
+      <div class="col-md-3">3</div>
+      <div class="col-lg-3">4</div>
+      <div class="col-xl-3">5</div>
+   </div>
+</div>
+```
+
+**col-1:** Targets all the screens.
+
+**col-sm-2:** Targets the screens from 576px and above.
+
+**col-md-3:** Targets the screens from 768px and above.
+
+**col-lg-3:** Targets the screens from 992px and above.
+
+**col-xl-3:** Targets the screens from 1200px and above.
+
+All items have the same width because I gave each column 3 grids, so the sum is 12.
 
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
