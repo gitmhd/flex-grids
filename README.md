@@ -31,9 +31,21 @@ Once you include `flex-grid.min.css` in your html file you are all set to use `f
 
 | class      | description                                                           |
 | ---------- | --------------------------------------------------------------------- |
-| .container | You can use it like holder for your content.                          |
+| .container | You can use it as a container for your content.                       |
 | .row       | Container of your grid elements, all grid elements must be inside it. |
-| .col-\*    | Presents a grid element.                                              |
+| .col-\*    | Represents a grid element.                                            |
 | .order-\*  | Uses for ordering your grid elements.                                 |
 
-> **Hint:** Consuming `flex-grid` classes is just like bootstrap.
+### .container
+
+You can use it as a container for your content, handles the content to be all the same.
+
+### .row
+
+Container of your grid elements, all grid elements must be inside it.
+
+### .col
+
+Represents a grid element,
+
+> **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
