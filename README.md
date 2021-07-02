@@ -36,7 +36,7 @@ Once you include `flex-grid.min.css` in your html file you are all set to use `f
 | .container | You can use it as a container for your content.                       |
 | .row       | Container of your grid elements, all grid elements must be inside it. |
 | .col-\*    | Represents a grid element.                                            |
-| .order-\*  | Uses for ordering your grid elements.                                 |
+| .order-\*  | Uses to order your grid elements.                                     |
 
 ### .container
 
@@ -78,13 +78,13 @@ You can add after hyphen number from 1 to 12 represents how many grid will take 
 
 All items have the same width because I gave each column 3 grids, so the sum is 12.
 
-You can add after hyphen (sm, md, lg, xl) depending on the screen you target.
+You can add after hyphen breakpoints(sm, md, lg, xl) depending on the screen you target.
 
 ```html
 <div class="container">
    <div class="row">
       <div class="col-1">1</div>
-      <div class="col-sm-2"2</div>
+      <div class="col-sm-2">2</div>
       <div class="col-md-3">3</div>
       <div class="col-lg-3">4</div>
       <div class="col-xl-3">5</div>
@@ -104,4 +104,28 @@ You can add after hyphen (sm, md, lg, xl) depending on the screen you target.
 
 ### .order-\*
 
+Uses to order your grid elements since grids are 12 so `order-*` are 12, so they will cover all grid elements.
+
+```html
+<div class="container">
+   <div class="row">
+      <div class="col-6 order-2">1</div>
+      <div class="col-6 order-1">2</div>
+   </div>
+</div>
+```
+
+Accepts all the breakpoints that `.col-*` accepts.
+
+```html
+<div class="container">
+   <div class="row">
+      <div class="col-md-6 order-md-2">1</div>
+      <div class="col-md-6 order-md-1">2</div>
+   </div>
+</div>
+```
+
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
+
+### Breakpoints
