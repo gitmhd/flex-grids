@@ -13,7 +13,7 @@ A lightweight CSS grid system uses for making responsive websites.
 
 ## Installation
 
-Clone the repo into your PC.
+Clone the repo in your PC.
 
 Then, copy the `css` folder into your project directory.
 
