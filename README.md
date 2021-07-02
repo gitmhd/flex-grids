@@ -63,7 +63,7 @@ Represents a grid element.
 
 Now all the elements will be the same width and fit the row.
 
-You can add after hyphen number from 1 to 12 represents how many grid will take from the whole grids.
+You can add after hyphen number from 1 to 12 represents how many grid will take from the 12 grids.
 
 ```html
 <div class="container">
@@ -102,6 +102,6 @@ You can add after hyphen (sm, md, lg, xl) depending on the screen you target.
 
 **col-xl-3:** Targets the screens from 1200px and above.
 
-All items have the same width because I gave each column 3 grids, so the sum is 12.
+### .order-\*
 
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
