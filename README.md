@@ -40,11 +40,11 @@ Once you include `flex-grid.min.css` in your html file you are all set to use `f
 
 ### .container
 
-You can use it as a container for your content, handles the content to be all the same.
+You can use it as a container of your content, it holds and centers the content.
 
 ### .row
 
-Container of your grid elements, all grid elements must be inside it.
+A container of your grid elements, all grid elements must be inside it.
 
 ### .col-\*
 
@@ -61,7 +61,7 @@ Represents a grid element.
 </div>
 ```
 
-Now all the elements will be the same width and fit the row.
+Using ".col" without any suffix that shows how many grids the element will span like `.col-2` or `.col-sm-2` will adjust all the columns to be all the same width.
 
 You can add after hyphen number from 1 to 12 represents how many grid will take from the 12 grids.
 
