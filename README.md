@@ -132,7 +132,7 @@ Accepts all the breakpoints that `.col-*` accepts.
 
 | Breakpoint  | Description                  |
 | ----------- | ---------------------------- |
-| .col        | For screens under 576px.     |
+| .col        | For all screens.             |
 | .col-**sm** | For screens 576px and above. |
 | .col-**md** | For screens 768px and above. |
 | .col-**lg** | For screens 992px and above. |
