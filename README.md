@@ -102,6 +102,8 @@ You can suffix the ".col" with a hyphen followed by a breakpoint that shows the 
 
 **col-xl-3:** Targets the screens from 1200px and above.
 
+> **Hint:** Using `.col-sm` or something similar without suffixing the number of grids you want like `.col-sm-3` doesn't make any sense.
+
 ### .order-\*
 
 Uses to order your grid elements since grids are 12 so `order-*` are 12, so they will cover all grid elements.
