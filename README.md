@@ -130,13 +130,15 @@ Accepts all the breakpoints that `.col-*` accepts.
 
 ## Breakpoints
 
-| Breakpoint  | Description                  |
-| ----------- | ---------------------------- |
-| .col        | For all screens.             |
-| .col-**sm** | For screens 576px and above. |
-| .col-**md** | For screens 768px and above. |
-| .col-**lg** | For screens 992px and above. |
-| .col-**xl** | For screens 1200 and above.  |
+Here is what widths are breakpoints target.
+
+| Breakpoint  | Description                 |
+| ----------- | --------------------------- |
+| .col        | For all widths.             |
+| .col-**sm** | For widths 576px and above. |
+| .col-**md** | For widths 768px and above. |
+| .col-**lg** | For widths 992px and above. |
+| .col-**xl** | For widths 1200 and above.  |
 
 ## Support
 
