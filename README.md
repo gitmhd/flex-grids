@@ -63,7 +63,7 @@ Represents a grid element.
 
 Using ".col" without any suffix that shows how many grids the element will span like `.col-2` or `.col-sm-2` will adjust all the columns to be all the same width.
 
-You can add after hyphen number from 1 to 12 represents how many grid will take from the 12 grids.
+You can suffix the `.col` with a hyphen followed by a number that shows how many grids the column will span.
 
 ```html
 <div class="container">
