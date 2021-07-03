@@ -128,4 +128,8 @@ Accepts all the breakpoints that `.col-*` accepts.
 
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
 
-### Breakpoints
+## Breakpoints
+
+## Support
+
+Thanks for using `flex-grid` if you experienced any issue feel free to describe it [here](https://github.com/gitmhd/flex-grid/issues).
