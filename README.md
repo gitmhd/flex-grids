@@ -127,6 +127,7 @@ Accepts all the breakpoints that `.col-*` accepts.
 ```
 
 > **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
+> **Hint:** `.container` class doesn't support breakpoints.
 
 ## Breakpoints
 
