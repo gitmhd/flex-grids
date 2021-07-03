@@ -78,7 +78,7 @@ You can suffix the `.col` with a hyphen followed by a number that shows how many
 
 All items have the same width because I gave each column 3 grids, so the sum is 12.
 
-You can add after hyphen breakpoints(sm, md, lg, xl) depending on the screen you target.
+You can suffix the ".col" with a hyphen followed by a breakpoint that shows the screens you target.
 
 ```html
 <div class="container">
