@@ -130,7 +130,7 @@ Accepts all the breakpoints that `.col-*` accepts.
 
 ## Breakpoints
 
-Here is what widths are breakpoints target.
+Here are what widths are breakpoints target.
 
 | Breakpoint  | Description                 |
 | ----------- | --------------------------- |
