@@ -31,7 +31,7 @@ Once you include `flex-grid.min.css` in your html file you are all set to use `f
 
 `flex-grid` is a rows and columns grid-based, each row represents a grid system, and each column represents a grid element, each row divided into 12 grid elements that can be represented by columns.
 
-| class      | description                                                           |
+| Class      | Description                                                           |
 | ---------- | --------------------------------------------------------------------- |
 | .container | You can use it as a container for your content.                       |
 | .row       | Container of your grid elements, all grid elements must be inside it. |
@@ -130,6 +130,14 @@ Accepts all the breakpoints that `.col-*` accepts.
 
 ## Breakpoints
 
+| Breakpoint  | Description                  |
+| ----------- | ---------------------------- |
+| .col        | For screens under 576px.     |
+| .col-**sm** | For screens 576px and above. |
+| .col-**md** | For screens 768px and above. |
+| .col-**lg** | For screens 992px and above. |
+| .col-**xl** | For screens 1200 and above.  |
+
 ## Support
 
-Thanks for using `flex-grid` if you experienced any issue feel free to describe it [here](https://github.com/gitmhd/flex-grid/issues).
+Thank you for using `flex-grid` if you experienced any issue feel free to describe it [here](https://github.com/gitmhd/flex-grid/issues).
