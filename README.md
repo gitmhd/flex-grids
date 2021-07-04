@@ -13,6 +13,8 @@ A lightweight CSS grid system uses for making responsive websites.
 
 ## Installation
 
+### As normal plugin
+
 Clone the repo in your PC.
 
 Then, copy the `css` folder into your project directory.
@@ -24,6 +26,25 @@ Then, include the `flex-grid.min.css` file in your html file.
 ```
 
 > **Hint:** I assume that your html file is in the root directory.
+
+### As NPM package
+
+Install the package in your project.
+
+```
+npm install flex-grid
+```
+
+Then, include the `flex-grid.min.css` file in your view file.
+
+```html
+<link
+   rel="stylesheet"
+   href="../node_modules/flex-grid/dist/css/flex-grid.min.css"
+/>
+```
+
+> **Hint:** I assume that your view file is in the views directory.
 
 ## Usage
 
