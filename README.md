@@ -32,7 +32,7 @@ Then, include the `flex-grid.min.css` file in your html file.
 Install the package in your project.
 
 ```
-npm install flex-grid
+npm install flex-grids
 ```
 
 Then, include the `flex-grid.min.css` file in your view file.
