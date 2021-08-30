@@ -3,20 +3,24 @@
 *,
 *::after,
 *::before {
-   box-sizing: border-box;
+  box-sizing: border-box;
 }
 .container {
-   padding: 0 15px;
-   margin: auto;
+  padding: 0 15px;
+  margin: auto;
 }
 .row {
-   display: flex;
-   flex-flow: row wrap;
-   margin: 0 -15px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 -15px;
 }
 [class*="col"] {
-   padding: 0 15px;
-   flex: 1 1 auto;
+  padding: 0 15px;
+  flex: 1 1 auto;
+}
+[class*="col-"] {
+  padding: 0 15px;
+  flex: 0 1 auto;
 }
 
 /* End global */
