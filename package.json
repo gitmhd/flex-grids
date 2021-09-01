@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitmhd/flex-grid.git"
+    "url": "git+https://github.com/gitmhd/flex-grids.git"
   },
   "keywords": [
     "flex-grids"
@@ -16,7 +16,7 @@
   "author": "Mohamed",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitmhd/flex-grid/issues"
+    "url": "https://github.com/gitmhd/flex-grids/issues"
   },
-  "homepage": "https://github.com/gitmhd/flex-grid#readme"
+  "homepage": "https://github.com/gitmhd/flex-grids#readme"
 }
