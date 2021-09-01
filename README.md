@@ -40,7 +40,7 @@ Then, include the `flex-grids.min.css` file in your view file.
 ```html
 <link
    rel="stylesheet"
-   href="../node_modules/flex-grid/dist/css/flex-grids.min.css"
+   href="../node_modules/flex-grids/dist/css/flex-grids.min.css"
 />
 ```
 
@@ -50,7 +50,7 @@ Then, include the `flex-grids.min.css` file in your view file.
 
 Once you include `flex-grids.min.css` in your html file you are all set to use `flex-grids`, now just you need to add some classes.
 
-`flex-grid` is a rows and columns grid-based, each row represents a grid system, and each column represents a grid element, each row divided into 12 grid elements that can be represented by columns.
+`flex-grids` is a rows and columns grid-based, each row represents a grid system, and each column represents a grid element, each row divided into 12 grid elements that can be represented by columns.
 
 | Class      | Description                                                           |
 | ---------- | --------------------------------------------------------------------- |
@@ -149,7 +149,7 @@ Accepts all the breakpoints that `.col-*` accepts.
 </div>
 ```
 
-> **Hint:** Consuming `flex-grid` classes is just like bootstrap framework.
+> **Hint:** Consuming `flex-grids` classes is just like bootstrap framework.
 
 > **Hint:** `.container` class doesn't support breakpoints.
 
@@ -167,4 +167,4 @@ Here are what widths are breakpoints target.
 
 ## Support
 
-Thank you for using `flex-grid` if you experienced any issue feel free to describe it [here](https://github.com/gitmhd/flex-grid/issues).
+Thank you for using `flex-grids` if you experienced any issue feel free to describe it [here](https://github.com/gitmhd/flex-grids/issues).
