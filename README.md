@@ -19,10 +19,10 @@ Clone the repo in your PC.
 
 Then, copy the `css` folder into your project directory.
 
-Then, include the `flex-grid.min.css` file in your html file.
+Then, include the `flex-grids.min.css` file in your html file.
 
 ```html
-<link rel="stylesheet" href="css/flex-grid.min.css" />
+<link rel="stylesheet" href="css/flex-grids.min.css" />
 ```
 
 > **Hint:** I assume that your html file is in the root directory.
@@ -35,12 +35,12 @@ Install the package in your project.
 npm install flex-grids
 ```
 
-Then, include the `flex-grid.min.css` file in your view file.
+Then, include the `flex-grids.min.css` file in your view file.
 
 ```html
 <link
    rel="stylesheet"
-   href="../node_modules/flex-grid/dist/css/flex-grid.min.css"
+   href="../node_modules/flex-grid/dist/css/flex-grids.min.css"
 />
 ```
 
@@ -48,7 +48,7 @@ Then, include the `flex-grid.min.css` file in your view file.
 
 ## Usage
 
-Once you include `flex-grid.min.css` in your html file you are all set to use `flex-grid`, now just you need to add some classes.
+Once you include `flex-grids.min.css` in your html file you are all set to use `flex-grids`, now just you need to add some classes.
 
 `flex-grid` is a rows and columns grid-based, each row represents a grid system, and each column represents a grid element, each row divided into 12 grid elements that can be represented by columns.
 
