@@ -1,22 +1,22 @@
 {
-   "name": "flex-grids",
-   "version": "1.0.0",
-   "description": "A lightweight CSS grid system uses for making responsive websites.",
-   "main": "index.js",
-   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gitmhd/flex-grid.git"
-   },
-   "keywords": [
-      "flex-grid"
-   ],
-   "author": "Mohamed",
-   "license": "MIT",
-   "bugs": {
-      "url": "https://github.com/gitmhd/flex-grid/issues"
-   },
-   "homepage": "https://github.com/gitmhd/flex-grid#readme"
+  "name": "flex-grids",
+  "version": "1.0.0",
+  "description": "A lightweight CSS grid system uses for making responsive websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitmhd/flex-grid.git"
+  },
+  "keywords": [
+    "flex-grids"
+  ],
+  "author": "Mohamed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitmhd/flex-grid/issues"
+  },
+  "homepage": "https://github.com/gitmhd/flex-grid#readme"
 }
