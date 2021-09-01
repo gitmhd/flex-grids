@@ -1,6 +1,6 @@
 {
   "name": "flex-grids",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A lightweight CSS grid system uses for making responsive websites.",
   "main": "index.js",
   "scripts": {
