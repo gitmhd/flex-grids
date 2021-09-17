@@ -1,4 +1,4 @@
-# flex-grid
+# flex-grids
 
 A lightweight CSS grid system uses for making responsive websites.
 
