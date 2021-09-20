@@ -11,7 +11,12 @@
     "url": "git+https://github.com/gitmhd/flex-grids.git"
   },
   "keywords": [
-    "flex-grids"
+    "flex-grids",
+    "flex",
+    "grid",
+    "responsive",
+    "framework",
+    "library"
   ],
   "author": "Mohamed",
   "license": "MIT",
